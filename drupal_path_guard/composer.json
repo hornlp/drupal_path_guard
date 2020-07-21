@@ -1,0 +1,21 @@
+{
+    "name": "drupal/drupal_path_guard",
+    "description": "Drupal Path Guard is a lightweight module that hides the node path access using nodeID from guest users. E.g. /node/18. Nodes can only be accessed using the URL Alias given to the node.",
+    "type": "drupal-module",
+    "homepage": "https://drupal.org/project/drupal_path_guard",
+    "authors": [
+        {
+            "name": "Louis Horn (skyraider)",
+            "homepage": "https://www.drupal.org/u/skyraider",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://drupal.org/project/issues/drupal_path_guard",
+        "irc": "irc://irc.freenode.org/drupal-contribute",
+        "source": "https://cgit.drupalcode.org/drupal_path_guard"
+    },
+    "license": "GPL-2.0-or-later",
+    "minimum-stability": "dev",
+    "require": {}
+}

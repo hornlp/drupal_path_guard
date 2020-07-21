@@ -1,0 +1,3 @@
+message: 'Default install settings for the Drupal Path Guard'
+langcode: 'en'
+uri_regex: '~/node/d*~i'

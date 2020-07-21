@@ -1,0 +1,8 @@
+name: Drupal Path Guard
+description: Guards GUEST access to paths using 'node/ID'. E.g. /node/18.
+package: Security
+type: module
+version: 0.1
+core: 8.x
+configure: drupal_path_guard.settings
+about: Guests are thus forced to access nodes using the URL Alias given to each node. Site content browsing by path and nodeid is thus prevented.

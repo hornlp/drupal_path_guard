@@ -1,0 +1,10 @@
+drupal_path_guard.admin:
+  path: admin/drupal_path_guard
+  defaults: 
+    _controller: Drupal\drupal_path_guard\Controller\DrupalPathGuardController::index
+    _title: "Drupal Path Guard Admin"
+  requirements:
+    _permission: 'administrator'
+
+drupal_path_guard.redirect_page:
+  path: /home

@@ -1,0 +1,11 @@
+services:
+  # Name of this service.
+  drupal_path_guard.path_check_service:
+    # Event subscriber class that will listen for the events.
+    class: 'Drupal\drupal_path_guard\EventSubscriber\DrupalPathGuardEventSubscriber'
+    arguments: ['@logger.factory']
+    autowire: true
+    # Tagged as an event_subscriber to register this subscriber with the event_dispatch service.
+    tags:
+      - { name: 'event_subscriber' }
+  

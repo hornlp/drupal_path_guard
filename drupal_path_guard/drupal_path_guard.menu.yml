@@ -1,0 +1,6 @@
+drupal_path_guard.admin:
+  title: 'Drupal Path Guard settings'
+  description: 'Configure settings for Drupal Path Guard'
+  parent: system.admin_config_development
+  route_name: drupal_path_guard.settings
+  weight: 100
